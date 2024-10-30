@@ -15,7 +15,7 @@ class FavAnimal:
     #method that prints out the attributes of my favorite animal
     def attributes(self):
         has_tail = "does" if self.tail else "does not"
-        is_furry = "is" if self.furry else "does not"
+        is_furry = "is" if self.furry else "is not"
         print(f"My favorite animal's arms are {self.arm_length} inches long, its legs are {self.leg_length} inches long, it has {self.num_eyes} eyes, it {has_tail} have a tail, and it {is_furry} furry.")
 
 #defining main
